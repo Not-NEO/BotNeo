@@ -69,29 +69,25 @@ Edit the required value in `config.json`.
     "vhtear": "api-key",
     "melodic": "administrator",
     "tobz": "BotWeA",
-    "lol": "api-key",
-    "authorStick": "@SlavyanDesu",
-    "packStick": "BocchiBot"
+    "lol": "api-key"
 }
 ```
 
 `ownerBot`: your WhatsApp number.  
-`prefix`: based on the latest update, you don't need to change the prefix, because this bot has multiple prefix.  
+`prefix`: Based on the latest update, you don't need to change the prefix, because this bot has multiple prefix.  
 `uaOverride`: your user agent.  
 `itech`: I-Tech API key. You can get it [here](https://api.i-tech.id) by creating an account. After that, set your server/host static IP in [here](https://api.i-tech.id/settings/profile).  
 `nao`: SauceNAO API key. You can get it [here](https://saucenao.com/user.php) by creating an account.  
 `vhtear`: VHTear API key. You can get it [here](https://api.vhtear.com/) by purchasing his API key.  
 `melodic`: MelodicXT API key. You can use `administrator` key.   
 `tobz`: Tobz API key. You can use `BotWeA` key.   
-`lol`: LolHuman API key. You can get it [here](https://lolhuman.herokuapp.com/) by creating an account.  
-`authorStick`: author sticker pack.  
-`packStick`: name of the sticker pack.  
+`lol`: LolHuman API key. You can get it [here](https://lolhuman.herokuapp.com/) by creating an account. 
 
 ## 🗣️ Changing language
 If you want to change the language to English, replace all `ind` function to `eng`.   
 Example:
 ```js
-ind.wrongFormat()
+eng.wrongFormat()
 ```
 To:
 ```js
